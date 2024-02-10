@@ -51,7 +51,8 @@ body{
 }
 
 .pop_up{
-    width: 100%;
+    scale: 1.5;
+    width: 100vh;
     height: 100vh;
     background-color: rgba(0,0,0, .8);
     position: fixed;
@@ -69,9 +70,7 @@ body{
     background-color: #ff4141;
     box-shadow: 0 20px 40px rgba(0,0,0, .2);
     border-radius: 10px;
-    margin: 2px;
 
-    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
